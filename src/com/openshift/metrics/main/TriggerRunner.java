@@ -1,4 +1,4 @@
-package com.mkyong.quartz;
+package com.openshift.metrics;
  
 import org.quartz.JobBuilder;
 import org.quartz.JobDetail;
