@@ -9,7 +9,7 @@ import org.quartz.TriggerBuilder;
 import org.quartz.impl.StdSchedulerFactory;
 
 public class TriggerRunner {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         JobDetail job = JobBuilder.newJob(MetricJob.class)
             .withIdentity("metricsJob","jbossMetrics")
             .build();
